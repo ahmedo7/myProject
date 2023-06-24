@@ -1,0 +1,464 @@
+                body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    padding: 20px 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar .nav-item .nav-link {
+    transition: color 1s;
+    color: white;
+}
+.navbar .nav-item .nav-link .sr-only{
+    color: tomato !important;
+}
+.navbar .nav-item .nav-link:hover{
+color: tomato !important;
+ }
+ 
+.navbar .icons i{
+    transition: color 1s;
+    color: white !important;
+}
+ .navbar .icons i:hover{
+color: tomato !important;
+ }
+.carousel-inner{
+    text-align: center;
+    position: relative;
+}
+.carousel-inner .carousel-caption {
+    display: flex !important;
+    position: absolute;
+    top: 0;
+    
+}
+.carousel-inner img{
+    width: 100%;
+    height: 95vh;
+
+}
+.carousel-inner{
+    position: relative;
+
+}
+ .setting{
+    width: 50px ;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+        font-size: 10px;
+        transition-duration: all 1s;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 30%;
+}
+ .setting:hover{
+    background-color: rgba(0, 0, 10, 0.9);
+
+}
+.carousel-inner h1{
+    font-size: 60px;
+}
+
+.carousel-inner .carousel-control-next{
+    width:50px ;
+    height: 50px;
+    border: 1px solid white;
+    font-size: 18px;
+    left: 0;
+    top: 42%;
+}
+
+.carousel-inner .carousel-control-prev{
+    width:50px ;
+    height: 50px;
+    border: 1px solid white;
+    font-size: 18px;
+    left: 0;
+    transition-duration: all 1s;
+    top: 50%;
+}
+.carousel-inner .carousel-control-prev:hover{
+    background-color: thistle;
+}
+.carousel-inner .carousel-control-next:hover{
+    background-color: thistle;
+}
+
+
+
+ .scroll{
+    position: absolute;
+    width: 26px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 13px;
+    background: transparent;
+    bottom: 60px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+ .scroll .ball{
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 6px;
+    left: 0;
+    right: 0;
+-webkit-animation: magic-mouse 1.7s infinite ease;
+-moz-animation: magic-mouse 1.7s infinite ease;
+animation: magic-mouse 1.7s infinite ease;
+}
+
+
+@keyframes magic-mouse {
+    0% {
+        top: 6px;
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        top: 18px;
+        opacity: 0;
+    }
+}
+/* -------------------------------------------------------------------------------------------------------- */
+
+.about-section {
+    position: relative;
+    }
+    .about-text h1{
+        
+        position: absolute;
+        color: #F1F1F1;
+    }
+    .about-text h2{
+        position: absolute;
+        font-size: 50px;
+
+    }
+.line{
+   transition-duration: all 1s;
+    width: 40px;
+    height: 2px;
+    background-color: black;
+}
+.col-md-12:hover .line{
+    width: 70px;
+}
+.pr{
+    width: 70%;
+    color: #999;
+    font-size: 18px;
+}
+.caption p{
+    font-size: 15px;
+}
+.ahly,
+.bar {
+    clear: both;
+}
+
+.progress {
+    height: 4px;
+    margin-bottom: 20px;
+    background-color: #eee;
+    border-radius: 2px;
+    background-color: tomato;
+    
+}
+
+
+
+.progress .progress-bar {
+    width: 0;
+    border-radius: 0 2px 2px 0;
+    
+}
+
+.progress-heading {
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.progress-heading .progress-title {
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.progress-heading .progress-value {
+    text-align: right;
+    font-weight: 500;
+}
+
+/* -------------------------------------------------------------------------- */
+.team .ahmed {
+    position: relative;
+    background-color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    }
+    .about-text h1{
+        
+        position: absolute;
+        color: #F1F1F1;
+    }
+    .about-text h2{
+        position: absolute;
+        font-size: 50px;
+
+    }
+    .team .image {
+        position: relative;
+        background-color: #fff;
+        border-radius: 3px;
+        overflow: hidden;
+    }
+.team .ahmed img{
+    width: 100%;
+
+    transition: all 0.3s;
+}
+
+.ahmed:hover .image img {
+
+    transform: scale(1.12);
+}
+
+
+.ahmed .iconss{
+    
+    background-color:rgba(242, 84, 84, 0.85);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    border-radius: 3px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(10px);
+    
+}
+.ahmed:hover .iconss{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.team .iconss:hover{
+    opacity: 1;
+    
+    transform: scale(1.2);
+    transform: translateY(0);
+}
+
+.ahmed .icon {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.ahmed .icon a {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 12px;
+    color: #fff;
+
+}
+.team .col-md-3:hover  h5{
+color: rgba(242, 84, 84, 0.85);
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+.services{
+    background-color: #fafafa;
+}
+.services .omran .col-1{
+    color: red;
+    font-size: 20px;
+}
+.services .omran .text1{
+    width: 100%; 
+
+}
+.services .omran .text1 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.services .omran .col-11 .text1 p{
+    font-size: 13px;
+    color: #666;
+}
+.services .omran:hover h3{
+    color: tomato;
+}
+/* -------------------------------------------------- */
+.Reviews .carousel-inner img{
+width: 10%;
+height: 60px;
+border-radius: 50%;
+}
+
+/* ------------------------------------- */
+
+
+
+
+.touch{
+    background-color: #fafafa;
+}
+
+
+.touch .col-md-6 h3 {
+    margin: 0 0 30px 0;
+}
+
+.info {
+    clear: both;
+    padding: 25px 0;
+    border-bottom: 1px solid #eee;
+}
+
+
+
+.info .fas {
+    float: left;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 0px 20px;
+    color: tomato;
+}
+
+
+.info .text2 h4 {
+    margin: 0;
+    font-size: 18px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.info .text2:hover h4{
+    color: tomato;
+}
+
+.info .text2 p {
+    margin: 0;
+}
+/* --------------------------------------------- */
+
+.map{
+    background-color: black;
+    position: relative;
+    clear: both;
+    z-index: 10;
+    font-family: "Poppins", sans-serif;
+    color: #b0b0b0;
+}
+.map .tag{
+    border: 1px solid wheat;
+}
+
+
+
+
+
+.map h5 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.map a {
+    color: #b0b0b0;
+    text-decoration: none;
+
+    transition-duration: all 1s;
+}
+
+.map .footer-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.map .tags .tag{
+    margin-right: 17px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 2px 10px;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #eee;
+ 
+
+}
+.map .tags{
+overflow: hidden;
+}
+.map a:hover{
+    color: tomato;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+.infoo{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    position: relative;
+}
+
+.infoo .icons i{
+    
+    font-size: 15px;
+    padding: 5px 5px;
+    float: left;
+    left: 0;
+    align-items: center;
+
+
+}
+.infoo p{
+    transition-duration: all 1s;
+    position: absolute;
+    right: 0;
+}
+.infoo p span:hover{
+    color: rgba(242, 84, 84, 0.85);
+}
